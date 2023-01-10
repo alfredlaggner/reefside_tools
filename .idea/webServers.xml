@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d1217d12-5d18-482b-b38e-3702e7a74ee2" name="reefside" url="http://tools.reefside.us">
+        <fileTransfer rootFolder="/var/www/laravel" accessType="SFTP" host="137.184.232.163" port="22" sshConfigId="2ec0470f-f3e5-4b1a-988e-87028ea055df" sshConfig="root@137.184.232.163:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
